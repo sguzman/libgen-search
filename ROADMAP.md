@@ -3,8 +3,8 @@
 > Goal: Search LibGen from the CLI, clean up results, and output a functional `urls.txt`.
 
 - [x] CLI boilerplate with Rye (`libgen_cli.py`)
-- [ ] Implement basic search against one LibGen mirror (HTML scraping)
-- [ ] Parse results into structured Python objects
+- [x] Implement basic search against one LibGen mirror (HTML scraping)
+- [x] Parse results into structured Python objects
 - [ ] Filter out non-book/journal entries
 - [ ] Remove obvious duplicates (same title + author + year)
 - [ ] Let user interactively select desired entries via CLI
