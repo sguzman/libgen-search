@@ -23,7 +23,7 @@
 - 🧼 Smart filtering of non-books, bad entries, and duplicates
 - 🗂 Choose specific formats (PDF, EPUB, MOBI, DJVU, etc.)
 - 🧾 Outputs a ready-to-use `urls.txt` with:
-  ```bash
+```bash
   http://libgen.rs/...&md5=abcdef123...  out="Book_Title_-_Author_Name.pdf"
 ````
 
@@ -37,28 +37,28 @@
 
 1. **Install Rye (if not already):**
 
-   ```bash
+```bash
    curl -sSf https://rye-up.com/get | bash
-   ```
+```
 
 2. **Clone the repository:**
 
-   ```bash
+```bash
    git clone https://github.com/YOUR_USERNAME/libgen-cli
    cd libgen-cli
-   ```
+```
 
 3. **Install dependencies via Rye:**
 
-   ```bash
+```bash
    rye sync
-   ```
+```
 
 4. **Run the CLI:**
 
-   ```bash
+```bash
    rye run python libgen_cli.py search "theory of computation"
-   ```
+```
 
 ---
 
